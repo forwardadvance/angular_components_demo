@@ -1,0 +1,95 @@
+<html>
+<head>
+  <title>Components</title>
+  <script src="angular.js"></script>
+  <script src="demo.js"></script>
+</head>
+<body ng-app="app" ng-controller="cheeseController as vm">
+  
+  <fa-footer></fa-footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Initial state -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Isolate Scopes</title>
+  <script src="angular.js"></script>
+  <script src="demo.js"></script>
+</head>
+<body ng-app="app" ng-controller="cheeseController">
+  <input ng-model="cheese" />{{cheese}}
+  <hr />
+  <div cheese-view>
+    This is the transclusion: <input ng-model="cheese" />{{cheese}}
+  </div>
+</body>
+</html> -->
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Isolate Scopes</title>
+  <script src="angular.js"></script>
+  <script src="demo.js"></script>
+</head>
+<body ng-app="app" ng-controller="cheeseController">
+  <input ng-model="cheese" />{{cheese}}
+  <hr />
+  <p>liked: {{likeCount}} Times!!!</p>
+  <cheese-view cheese="cheese" on-like="likeCount = likeCount + 1">
+  </cheese-view>
+
+
+  <input ng-model="search" />
+  <flickrResults tag="search" on-start="loading=true" on-complete="loading=false"></flickrResults>
+
+  <div ng-if="loading">Loading</div>
+
+</body>
+</html>
+ -->
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>=</title>
+  <script src="angular.js"></script>
+  <script src="demo.js"></script>
+</head>
+<body ng-app="app" ng-controller="myController">
+  <input ng-model="test" />{{test}}
+  We use = to bind a value to the directive scope.
+  <div my-directive cheese="test"></div>
+</body>
+</html>
+  -->
+
+
